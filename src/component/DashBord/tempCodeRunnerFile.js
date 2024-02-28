@@ -1,0 +1,1 @@
+import '../DashBord/styled.css';
