@@ -20,16 +20,18 @@ function Profile() {
                 <div className="image">
                     <img src={profile} className="img-profile" alt="profile pic"/>
                 </div>
-                <div className="description">
+                <div className="">
                     <h3>Scott Bryant</h3>
                     <h5>Lower back Exercise pain specialist</h5>
                     <h4>United Kingdom</h4>
                     <p>I am Looking for a web guy that know that they are doing for seo and web site  fixes</p>
                 </div>
             </div>
-            <div className="user-information">
-                <div className="description">
-                    <h3>Client Information</h3>
+            <div className="report-container">
+            <div class="report-header">
+            <h3>Client Information</h3>
+                </div>
+                <div className="report-body">
                     <table>
                         <thead>
                             <tr>
