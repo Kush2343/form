@@ -466,52 +466,16 @@ header {
     font-size: 25px;
 }
 
-.Profile .user-information {
-    padding: 40px 0;
-}
-
-.Profile .user-information .description {
-    padding: 20px;
+.Profile .report-container
+{
     background-color: var(--main-color);
-    border-radius: 20px;
 }
-
-.Profile .user-information .description h3 {
-    color: var(--secondory-color);
-    font-size: 25px;
-}
-
-.Profile .user-information .description table {
-    width: 100%;
-    background-color: var(--secondory-color);
-    border-radius: 20px;
-    margin: 10px 0;
-    height: 100%;
-    border-collapse: collapse;
-}
-
-.Profile .user-information .description table thead {
-    color: var(--main-color);
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.Profile .user-information .description table thead th {
-    color: #2460A7FF;
-    padding: 10px 25px;
-    border-bottom: 4px solid var(--primary-color);
-}
-.Profile .user-information .description table tr
-{
-    border-bottom: 2px solid var(--primary-color);
-}
-.Profile .user-information .description table tr:last-child
-{
-    border: none;
-}
-.Profile .user-information .description table tbody td {
-    color: black;
-    padding: 10px 25px;
+.Profile .report-header{
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
 }
 /* Responsive CSS Here */
 @media screen and (max-width:1024px) {
@@ -632,7 +596,7 @@ header {
     }
 
     .navcontainer {
-        height: 70vh;
+        height: 90vh;
         width: 100vw;
         position: absolute;
         transition: all 0.6s ease-in-out;
