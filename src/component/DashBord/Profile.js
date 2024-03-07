@@ -20,7 +20,7 @@ function Profile() {
                 <div className="image">
                     <img src={profile} className="img-profile" alt="profile pic"/>
                 </div>
-                <div className="">
+                <div className="description">
                     <h3>Scott Bryant</h3>
                     <h5>Lower back Exercise pain specialist</h5>
                     <h4>United Kingdom</h4>
