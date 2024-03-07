@@ -24,7 +24,7 @@ function Login() {
       console.log('Form submitted successfully', values);
       
       // Check credentials match
-      if (values.email === 'admin@gmail.com' && values.password === 'Admin1234') {
+      if (values.email === 'admin@gmail.com' && values.password === 'Admin@$1') {
         console.log('Login successful!');
         setLoggedIn(true);
         ;
